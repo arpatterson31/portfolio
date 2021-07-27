@@ -7,5 +7,17 @@ possible color palettes
 
 /* i.fab,
 i.far {
-  font-weight: 900;
+  font-weight: 400;
 } */
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
