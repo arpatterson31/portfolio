@@ -1,8 +1,9 @@
 /*
 possible color palettes
+#F8F8FF - off white
 #E1F2F7 - light blue
 #EF0D50 - red
-#EB3A70 - whitish
+#EB3A70 - lighter red
 #E5BACE - matte pink */
 
 /* i.fab,
@@ -10,18 +11,103 @@ i.far {
   font-weight: 400;
 } */
 
+/*  BASIC LAYOUT */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  background-color: #F8F8FF;
 }
 
-a{
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
   text-decoration: none;
 }
 
+a:link,
 a:visited {
   text-decoration: none;
+  color: #353839
 }
+
+/*  HEADER   */
+header {
+  height: 20%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+header li {
+  display: inline-block;
+  margin: 15px;
+
+}
+
+.nav-items a {
+  color: #353839;
+  font-size: 1vw;
+  letter-spacing: .5px;
+}
+
+.nav-items a:hover {
+  color: #EB3A70;
+}
+
+/* FOOTER */
+footer {
+  height: 100px;
+  width: 100%;
+  display: inline;
+  text-align: center;
+  font-size: 1vw;
+}
+
+footer a.up-arrow {
+  display: inline-block;
+  width: 100%;
+
+}
+
+footer i {
+  font-size: 2vw;
+}
+
+footer a.up-arrow:hover {
+  color: #EB3A70;
+}
+
+footer a.linkedin:hover {
+  color: #0072B1;
+}
+
+footer a.github:hover {
+  color: #7DBBE6;
+}
+
+footer a.instagram:hover {
+  color: #C13584
+}
+
+footer a.email:hover {
+  color: #DD4B39;
+}
+
