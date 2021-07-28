@@ -89,6 +89,8 @@ footer a.up-arrow {
 
 footer i {
   font-size: 2vw;
+  padding: .5vw;
+  margin-top: 1vh;
 }
 
 footer a.up-arrow:hover {
@@ -111,3 +113,9 @@ footer a.email:hover {
   color: #DD4B39;
 }
 
+footer p {
+  color: #353839;
+  font-size: 1vw;
+  letter-spacing: .5px;
+  margin-top: 2vh;
+}
