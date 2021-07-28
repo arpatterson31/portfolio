@@ -106,7 +106,11 @@ footer a.github:hover {
 }
 
 footer a.instagram:hover {
-  color: #C13584
+  color: #C13584;
+}
+
+footer a.twitter:hover {
+  color: #1DA1F2;
 }
 
 footer a.email:hover {
