@@ -104,6 +104,23 @@ header li {
   font-weight: bold;
 }
 
+.about-btn:hover {
+    border: solid #EB3A70;
+    color: #EB3A70;
+}
+
+
+/* PORTFOLIO ON HOMEPAGE */
+
+#portfolio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 /* FOOTER */
 footer {
   height: 100px;
